@@ -1,4 +1,10 @@
 print("Enter a choice of code")
+print("1. Audio frequency check")
+print("2. Frequency band classification")
+print("3. Resistor value by color")
+print("4. Battery voltage checker")
+print("5. Tolerance checker")
+
 choice = int(input("Enter your choice (1-5): "))
 
 match choice:
