@@ -1,5 +1,5 @@
 print("Enter a choice of code")
-print("1. Audio frequency check")
+print("1. radio frequency check")
 print("2. Frequency band classification")
 print("3. Resistor value by color")
 print("4. Battery voltage checker")
@@ -12,9 +12,9 @@ match choice:
         # Audio frequency check
         f = float(input("Enter the frequency in Hz: "))
         if f <= 20000:
-            print("Audio frequency is (AM)")
+            print("Radio frequency is (AM)")
         else:
-            print("Audio frequency is (RF)")
+            print("Radio  frequency is (RF)")
 
     case 2:
         # Frequency band classification
