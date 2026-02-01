@@ -44,6 +44,8 @@ b1 = input("Band 1 color: ").lower()
 b2 = input("Band 2 color: ").lower()
 b3 = input("Multiplier band color: ").lower()
 b4 = input("Tolerance band color: ").lower()
-
-value, tol = res_val(b1, b2, b3, b4)
-print(f"The resistor value is {value} Ohms with a tolerance of {tol}.")
+try:
+    value, tol = res_val(b1, b2, b3, b4)
+    print(f"The resistor value is {value} Ohms with a tolerance of {tol}.")
+except KeyError:
+    print("---------------enter a valid color broski--------------------")
